@@ -15,7 +15,7 @@ Elegir cualquier licencia:
 Este proyecto es ideado y desarrollado por
 
 - Edgar Alejandro Esparza Palencia 22110308
-- Alejandro Mendez Corona  
+- Alejandro Mendez Corona 22110299 
 
 ## Introduccion 
 
