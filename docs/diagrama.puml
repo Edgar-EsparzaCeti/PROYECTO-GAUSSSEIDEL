@@ -1,0 +1,20 @@
+@startuml diagrama
+
+package MetodoNumericoGaussseidel{  
+
+GaussSediel  o--  vector #Red
+
+
+class GaussSediel{ 
+    + GaussSeidel() {}
+    + void solve() {}
+    + void printIteration(int iteration, const vector<double>& x) {}
+    + vector<vector<double>> createMatrix(int n) {}
+    + vector<double> gaussSeidel(vector<vector<double>>& A, vector<double>& b, vector<double>& x0, double epsilon, int maxIter) {}
+}
+class vector{
+    - A
+    - b
+    - x0
+}
+}
